@@ -78,7 +78,6 @@ def upload_csv_s3_shuffle_by_ticker(
     # instantiate boto3-S3 resource
     s3_resource = boto3.resource('s3')
     
-    ### only loop through 5 ... loop through all when done ### 
     for each_tuple in ls_tp_df_ticker:
         
         # unpack each tuple: ticker and dataframe
