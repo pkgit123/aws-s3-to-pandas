@@ -1,5 +1,5 @@
 # aws-s3-to-pandas
-Playbook for AWS Lambda, AWS S3, and pandas.  
+Playbook for AWS Lambda, AWS S3 (e.g. csv files), and pandas.  
 
 Pre-processing code for longitudinal study of options data by ticker.  Uses Python and AWS Lambda.  
 
