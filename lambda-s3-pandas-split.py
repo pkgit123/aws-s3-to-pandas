@@ -7,6 +7,12 @@
 #
 # ==============================================================================
 '''
+Useful concepts:
+* Read CSV from s3 to pandas dataframe
+* Split pandas dataframe using list-groupby
+* Upload CSV to s3 from pandas dataframe
+* Parsing string of filename for partial data
+
 References:
 * https://stackoverflow.com/questions/30818341/how-to-read-a-csv-file-from-an-s3-bucket-using-pandas-in-python
 * https://www.geeksforgeeks.org/split-large-pandas-dataframe-into-list-of-smaller-dataframes/
